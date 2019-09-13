@@ -1,0 +1,54 @@
+body{
+    margin: 0px auto;
+}
+#header{
+    background-color: powderblue;
+    height: 120px;
+    display: flex; /* chia cột */
+}
+#footer{
+    background-color: blueviolet;
+    height: 120px;
+}
+#logo{
+    width: 25%;
+    padding-top: 30px;
+    padding-left: 90px;
+}
+#logo img{
+    max-width: 300px;
+    width: 100%;
+}
+#menu{
+    width: 75%;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    margin-right: 40px;
+    display: inline-block;
+    padding-top: 50px;
+    font-weight: bold;
+}
+a:hover{
+    color: #aa914d;
+}
+#slideshow{
+    width: 80%;
+    margin: 0px auto;
+}
+.img images-list{
+    width: 100%;
+}
+.title{
+    height: 100px;
+    background-color: rgba(68, 61, 67, 0.507);
+    position: relative;
+    bottom: 100px;
+    font-style: 30px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}

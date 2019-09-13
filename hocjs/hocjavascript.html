@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Học JS</title>
+    <link rel="stylesheet" href="stylejavascript.css">
+</head>
+<body>
+    <form action="">
+        <div id="main">
+            <div id="left">
+                Fruit
+                <input type="text" name="txtFruit" id="txtFruit">
+                <input type="button" name="btnShowFruit" value="Show Fruit" id="btnShowFruit">
+            </div>
+            <div class="right">
+                <img src="" alt="">
+            </div>
+        </div>
+    </form>
+    <script>
+        //xác định phần tử trên cây định thao tác
+        var _left =document.getElementById('left');
+        var _txtFruit = document.getElementById('txtFruit');
+        var _btnShowFruit = document.getElementById('btnShowFruit');
+        var _right = document.getElementsByClassName('right');
+        //Xử lý sự kiện
+        _btnShowFruit.addEventListener('click',ham);
+        //định nghĩa hàm 
+        function ham(){
+            //  _right[0].innerHTML = "<img src='images/"+ _txtFruit.value +".png' />"; //tách chuỗi
+            var newE = document.createElement('h1');
+            _right[0].innerHTML = "<h1>" + _txtFruit.value + "</h1>";
+            newE.textContent = _txtFruit.value
+            // gắn phần tử vào cây
+            _right.addEventListene
+            pure JavaScript
+            addElement
+            riploie
+        }
+    </script>
+</body>
+</html>

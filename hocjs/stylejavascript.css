@@ -1,0 +1,16 @@
+#main{
+    width: 80%;
+    margin: 0px auto;
+}
+#main{
+    display: flex;
+    height: 300px;
+}
+#left{
+    width: 40%;
+    background-color: rebeccapurple;
+}
+.right{
+    width: 40%;
+    background-color: antiquewhite;
+}
